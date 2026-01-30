@@ -41,7 +41,7 @@ body {
 .content {
   background-color: #ddd;
   padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
+  /* height: 200px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the footer */
@@ -54,14 +54,28 @@ body {
 <body>
 
 <div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#">Home</a>
+  <a href="#">HVAC</a>
+  <a href="#">Water</a>
+  <a href="#">Air Quality</a>
+  <a href="#">Electrical</a>
+  <a href="#">Solar</a>
+  <a href="#">Admin</a>
 </div>
 
 <div class="content">
   <h2>CSS Template</h2>
   <p>A topnav, content and a footer.</p>
+  <canvas id="myCanvas" width="1000" height="600" style="border:1px solid #000000;">
+Your browser does not support the HTML canvas tag.
+</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(1920,100);
+ctx.stroke();
+</script>
 </div>
 
 <!--<div class="footer">
