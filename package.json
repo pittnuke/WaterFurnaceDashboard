@@ -1,0 +1,19 @@
+{
+  "name": "waterfurnacedashboard",
+  "version": "1.0.0",
+  "description": "waterfurnacedashboard",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "js/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pittnuke/WaterFurnaceDashboard.git"
+  },
+  "author": "R. Morton",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pittnuke/WaterFurnaceDashboard/issues"
+  },
+  "homepage": "https://github.com/pittnuke/WaterFurnaceDashboard#readme"
+}

@@ -1,0 +1,8 @@
+*.log
+*.tmp
+
+/secrets/
+
+/js/test.js
+
+.env
